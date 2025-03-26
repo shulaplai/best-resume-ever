@@ -15,7 +15,7 @@ birth:
 # you may add more experiences by duplicating the template
 
 experience:
-- React
+- company: Futuret
   position: Developer
   timeperiod: January 2021 - October 2024
   description: "- Developed and launched responsive websites and mobile apps,
@@ -36,27 +36,21 @@ education:
 # skill level goes from 0 to 100
 skills:
 - name: HTML5
-  level: 80
+  level: 99
+- name: CSS3
+  level: 95
 - name: JavaScript
-  level: 90
+  level: 97
 - name: Node.js
+  level: 93
+- name: Angular 2
   level: 60
-- name: React
-  level: 80
 - name: TypeScript
-  level: 70
-- name: Git
+  level: 80
+- name: ES.Next
   level: 70
 - name: Docker
-  level: 70
-- name: Laravel
-  level: 80
-- name: php
-  level: 70
-- name: Django
-  level: 60
-- name: AWS
-  level: 60
+  level: 99
 knowledge: Strong knowledge of basic web technologies
   such as HTML, CSS (Bootstrap, Tailwind) and others. In-depth knowledge
   of JavaScript, React JS, Next JS , Laravel, Docker , Git. Knowledge of State
