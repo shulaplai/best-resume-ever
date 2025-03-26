@@ -73,7 +73,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
-@text-purple: #680568;
+@text-purple: #008000;
 #template {
     box-sizing:border-box;
     font-family:'Open Sans', sans-serif;

@@ -8,14 +8,14 @@
         </div>
 
         <p>
-          <span class="txt-full-white"> {{ person.position }} </span>
+          <span class="txt-full-white"> {{ person.name.position }} </span>
           <br/>
           <span> {{ person.contact.city }} </span>
         </p>
       </div>
 
       <div class="multi-line-txt">
-        {{ person.about }}
+        {{ person.name.about }}
       </div>
 
       <div class="multi-line-txt">
@@ -110,7 +110,11 @@
             <span class="section-content__header"> {{ experience.position }}</span>
             <span class="section-content__subheader"> {{ experience.company }}</span>
             <div class="section-content__text"> {{ experience.timeperiod }}</div>
-            <span class="section-content__text--light"> {{ experience.description }}</span>
+            <div class="section-content__text--light"> {{ experience.description }}</div>
+            <div class="section-content__text--light"> {{ experience.description2 }}</div>
+            <div class="section-content__text--light"> {{ experience.description3 }}</div>
+            <div class="section-content__text--light"> {{ experience.description4 }}</div>
+            <div class="section-content__text--light"> {{ experience.description5 }}</div>
           </a>
         </div>
       </div>
@@ -209,7 +213,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #A800FA;
+@accent-color: #008000;
 
 .resume {
   display: flex;

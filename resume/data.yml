@@ -2,46 +2,36 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: LAI
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Shu Lap
+  about: Software developer. 
+  position: Software developer. 
 
 birth:
-  year: 1990
-  location: New York
+  year: 1997
+  location: Hong Kong
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
+- company: Futuret
   position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  timeperiod: January 2021 - October 2024
+  description: "- Developed and launched responsive websites and mobile apps,
+    including sass application used by multiple companies.   "
+  description2: "- Used React, Next JS Redux, Sass, Tailwind, Git for web application."
+  description3: "- Used php (Laravel), Docker for backend development."
+  description4: "- Built RESTful APIs that served data to the next js front end."
+  description5: "- Worked with other developers and project managers to develop and
+    re-architect web app."
+  website: https://futuret-hk.com/
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Sociology
+  timeperiod: September 2015 - May 2019
+  description: Major in Sociology, Lingnan University 
 
 # skill level goes from 0 to 100
 skills:
@@ -61,8 +51,12 @@ skills:
   level: 70
 - name: Docker
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge: Strong knowledge of basic web technologies
+  such as HTML, CSS (Bootstrap, Tailwind) and others. In-depth knowledge
+  of JavaScript, React JS, Next JS , Laravel, Docker , Git. Knowledge of State
+  Management tools like hooks and Recoil. Skilled at connecting
+  exceptional assets with users via creative UI frameworks and careful user
+  experience optimization. 
 
 projects:
 - name: best-resume-ever
@@ -73,13 +67,6 @@ projects:
 
 # optional, not all resume templates have hobbies included
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
 
 contributions:
 - name: best-resume-ever
@@ -87,10 +74,10 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
+  email: shulaplai@gmail.com
+  phone: 90625668
+  street: 
+  city: Hong Kong
   website: johndoe.com
   github: johnyD
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
