@@ -5,7 +5,7 @@ name:
   first: LAI
   middle:
   last: Shu Lap
-  about: Software developer. 
+  about: A self-taught Software developer with 3 years of experiences. 
   position: Software developer. 
 
 birth:
@@ -36,25 +36,27 @@ education:
 # skill level goes from 0 to 100
 skills:
 - name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
   level: 80
-- name: ES.Next
+- name: JavaScript
+  level: 90
+- name: Node.js
+  level: 60
+- name: React
+  level: 80
+- name: Git
   level: 70
 - name: Docker
-  level: 99
+  level: 70
+- name: Laravel
+  level: 80
+- name: Php
+  level: 70
+- name: AWS
+  level: 70
 knowledge: Strong knowledge of basic web technologies
   such as HTML, CSS (Bootstrap, Tailwind) and others. In-depth knowledge
   of JavaScript, React JS, Next JS , Laravel, Docker , Git. Knowledge of State
-  Management tools like hooks and Recoil. Skilled at connecting
+  Management tools like hooks and Redux. Skilled at connecting
   exceptional assets with users via creative UI frameworks and careful user
   experience optimization. 
 
