@@ -33,14 +33,6 @@
       </div>
 
       <div class="social-container">
-        <a v-if="person.contact.website"
-          :href="person.contact.website">
-
-          <div class="block-marged txt-full-white">
-            <i class="fa fa-globe contact-icon"></i>
-            {{ person.contact.website }}
-          </div>
-        </a>
 
         <a v-if="person.contact.github"
           :href="contactLinks.github"
@@ -138,25 +130,7 @@
         </div>
       </div>
 
-      <div v-if="person.projects"
-        class="projects-section section">
-        <div class="icon">
-          <i class="material-icons">code</i>
-          <span class="section-headline"> {{ lang.projects }} </span>
-        </div>
 
-        <div class="section-content">
-          <a v-for="(project, index) in person.projects" :key="index"
-            class="section-content__item"
-            :href="project.url">
-
-            <span class="section-content__header"> {{ project.name }} </span>
-            <span class="section-content__subheader">{{ project.platform }}</span>
-            <span class="section-content__text"> {{ project.description }} </span>
-            <span class="section-content__text--light"> {{ project.url }} </span>
-          </a>
-        </div>
-      </div>
 
       <div v-if="person.skills"
         class="skills-section section">
@@ -173,28 +147,6 @@
             <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
 
             <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
-          </a>
-        </div>
-      </div>
-
-      <div v-if="person.contributions"
-        class="contributions-section section">
-
-        <div class="icon">
-          <i class="fa fa-heart font-awesome-icons"></i>
-          <span class="section-headline"> {{lang.contributions}} </span>
-        </div>
-
-        <div class="section-content-grid">
-          <a v-for="(contribution, index) in person.contributions" :key="index"
-            :href="contribution.url"
-            class="section-content__item-grid">
-
-            <span class="section-content__header"> {{ contribution.name }} </span>
-            <span class="section-content__text"> {{ contribution.description }} </span>
-            <span class="section-content__text--light" style="word-break: break-all;">
-              {{ contribution.url }}
-            </span>
           </a>
         </div>
       </div>

@@ -17,7 +17,7 @@ birth:
 experience:
 - company: Futuret
   position: Developer
-  timeperiod: January 2021 - October 2024
+  timeperiod: January 2022 - October 2024
   description: "- Developed and launched responsive websites and mobile apps,
     including sass application used by multiple companies.   "
   description2: "- Used React, Next JS Redux, Sass, Tailwind, Git for web application."
@@ -81,7 +81,7 @@ contact:
   street: 
   city: Hong Kong
   website: johndoe.com
-  github: johnyD
+  github: shulaplai
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
